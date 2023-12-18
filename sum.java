@@ -1,11 +1,16 @@
-import java.util.*;
-public class Sum
+import java.util.Scanner;
+public class sum
 {
     public static void main(String[] args) {
-        int a=5;
-        int b=6;
+        int a,b,c;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the first number");
+        a = sc.nextInt();
+        System.out.println("enter the second number");      
+        b = sc.nextInt();
+        c=a+b;
 
-        System.out.println(a+b);
-
+        System.out.println("The sum is" +c);
+        sc.close();
     }
 }
